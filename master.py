@@ -294,7 +294,7 @@ def showRestaurants():
     cuisine = session.query(Restaurant).order_by(asc(Restaurant.cuisine_cat))
     food = ['Asian', 'Italian', 'American', 'Greek', 'Vegetarian', 'Mexican', 'All']
     if 'username' not in login_session:
-        return render_template('publicrestaurants.html', restaurants=restaurants, food=food)
+        return render_template('restaurantlarge.html', restaurants=restaurants, food=food)
     else:
         return render_template('restaurantlarge.html', restaurants=restaurants, food=food )
 
@@ -443,7 +443,7 @@ def disconnect():
         if login_session['provider'] == 'google':
             gdisconnect()
             del login_session['gplus_id']
-            del login_session['credentials']
+            del login_session['access_token']
         if login_session['provider'] == 'facebook':
             fbdisconnect()
             del login_session['facebook_id']
