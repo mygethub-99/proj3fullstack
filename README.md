@@ -24,6 +24,12 @@
 #### templates folder: Contain all the .html templates used by the application. flask, jinja are used to render templates from python and to script python within html.
 ***
 
+## Web Application Setup
+
+#### 1. Install Vagrant. Follow these instructions. [vagrant] (https://www.udacity.com/wiki/ud197/install-vagrant)
+#### 2. Clone this project from Github. [project] (https://github.com/udacity/proj3fullstack)
+
+***
 ### List of master.py module functions.
 
 ####Functions login, fbconnect, fbdisconnect, gconnect, creatUser, getUserInfo, getUserID, gdisconnect, and disconnect are used for logging in or out of the application using oauth function via facebook and google.
