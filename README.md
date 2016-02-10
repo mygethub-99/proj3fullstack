@@ -9,19 +9,19 @@
 
 ### Required Files and software.
 
-#### Python: feb32015.py (Creates db, and tables), dbpopfeb3.py (Populates the DB with items for restaurant), dropallfeb32015.py (Drops all table data in the db), master.py (contains the main server code)
+Python: feb32015.py (Creates db, and tables), dbpopfeb3.py (Populates the DB with items for restaurant), dropallfeb32015.py (Drops all table data in the db), master.py (contains the main server code)
 
-#### json: FB_client_secrets.json, and client_secrets.json provide the needed code to allow for oauth authentication to take palce.
+json: FB_client_secrets.json, and client_secrets.json provide the needed code to allow for oauth authentication to take palce.
 
-#### restaurantmapped.db: This is a sqlite db where all the apps data is stored and managed.
+restaurantmapped.db: This is a sqlite db where all the apps data is stored and managed.
 
-#### README.md: You are looking at it.
+README.md: You are looking at it.
 
-#### static folder: Contains the styles.css files that allows for some customized formatting of the web site. All othe files in the static folder are jpg and png files that are used by the web site application.
+static folder: Contains the styles.css files that allows for some customized formatting of the web site. All othe files in the static folder are jpg and png files that are used by the web site application.
 
-#### js: Contains the bootstrap.js file and bootstrap.min.js file used to create cool functions like carousel, drop down menus in a web site. jquery-2.1.4.js provides additional js for the web app.
+js: Contains the bootstrap.js file and bootstrap.min.js file used to create cool functions like carousel, drop down menus in a web site. jquery-2.1.4.js provides additional js for the web app.
 
-#### templates folder: Contain all the .html templates used by the application. flask, jinja are used to render templates from python and to script python within html.
+templates folder: Contain all the .html templates used by the application. flask, jinja are used to render templates from python and to script python within html.
 ***
 ## Web Application Setup
  1. Install Vagrant. Follow these instructions. [vagrant] (https://www.udacity.com/wiki/ud197/install-vagrant)
