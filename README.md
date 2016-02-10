@@ -1,6 +1,6 @@
 # Fullstack Nano Degree Project 3
 
-***
+****
 
 ## Name of Project: Dallas Texas Restaurant app.
 
