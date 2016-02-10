@@ -4,7 +4,7 @@
 
 ## Name of Project: Dallas Texas Restaurant app.
 
-### Description: The Dallas Texas Restaurant Application provides a list of restaurants along with particulars such as location, type of cuisine, and menu items. Site incorporates user registration, and oauth authentication along with the ability to post, edit and delete new restaurants, and menu items. Site allows the user to filter for particular cuisine types to narrow the list of restaurants to view.
+### Description: The Dallas Texas Restaurant Application provides a list of restaurants along with particulars such as location, map, type of cuisine, and menu items. Site incorporates user registration, and oauth authentication along with the ability to post, edit and delete new restaurants, and menu items. Site allows the user to filter for particular cuisine types to narrow the list of restaurants to view.
 ***
 
 ### Required Files and software.
@@ -43,6 +43,10 @@
 #### showRestCuisine will query on a particular type of cuisine.
 
 #### newMenuItem will allow the user to build a new menu item that.
+
+#### editMenuItem will allow the user to edit a menuitem that belongs to them.
+
+#### deleteMenuItem allows the user to delete a menu item.
 
 
 
