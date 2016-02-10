@@ -27,7 +27,12 @@
 ## Web Application Setup
 
 #### 1. Install Vagrant. Follow these instructions. [vagrant] (https://www.udacity.com/wiki/ud197/install-vagrant)
-#### 2. Clone this project from Github. [project] (https://github.com/udacity/proj3fullstack)
+#### 2. Clone this project from Github. [project] (https://github.com/udacity/proj3fullstack) into the vagrant directory. 
+#### 3. Open Git Bash and navigate to the vagrant folder with the proj3fullstack master.py file. The execute vagrant up.
+Once vagrant vm is loaded execute the vagrant ssh command. 
+#### 4. Type in "python dropallfeb32015.py" command in vagrant to drop the database tables.
+#### 5. Type in "python dbpopfeb3.py" to load the database with app data.
+#### 6. Type in "python master.py" to launch the web server application.
 
 ***
 ### List of master.py module functions.
