@@ -1,4 +1,4 @@
-# Fullstack Nano degree Project 3
+# Fullstack Nano Degree Project 3
 
 ***
 
