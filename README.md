@@ -23,16 +23,17 @@
 
 #### templates folder: Contain all the .html templates used by the application. flask, jinja are used to render templates from python and to script python within html.
 ***
-
 ## Web Application Setup
-
-#### 1. Install Vagrant. Follow these instructions. [vagrant] (https://www.udacity.com/wiki/ud197/install-vagrant)
-#### 2. Clone this project from Github. [project] (https://github.com/udacity/proj3fullstack) into the vagrant directory. 
-#### 3. Open Git Bash and navigate to the vagrant folder with the proj3fullstack master.py file. The execute vagrant up.
-Once vagrant vm is loaded execute the vagrant ssh command. 
-#### 4. Type in "python dropallfeb32015.py" command in vagrant to drop the database tables.
-#### 5. Type in "python dbpopfeb3.py" to load the database with app data.
-#### 6. Type in "python master.py" to launch the web server application.
+ 1. Install Vagrant. Follow these instructions. [vagrant] (https://www.udacity.com/wiki/ud197/install-vagrant)
+ 2. Clone this project from Github. [project] (https://github.com/udacity/proj3fullstack) into the vagrant directory. 
+ 3. Open Git Bash and navigate to the vagrant folder with the proj3fullstack master.py file. The execute vagrant up.
+    Once vagrant vm is loaded execute the vagrant ssh command. 
+ 4. Type in "python dropallfeb32015.py" command in vagrant to drop the database tables.
+ 5. Type in "python dbpopfeb3.py" to load the database with app data.
+ 6. Type in "python master.py" to launch the web server application.
+ 7. Now open a chrome web browser and type in http://localhost:5000/restaurant/ to display the restaurant application.
+ 8. You may explore the web application as a visitor, or login using facebaook or your google account login.
+ 9. Once you are logged in you may add new restaurants to edit and display in the web server application.
 
 ***
 ### List of master.py module functions.
