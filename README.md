@@ -40,25 +40,25 @@ templates folder: Contain all the .html templates used by the application. flask
 
 ####Functions login, fbconnect, fbdisconnect, gconnect, creatUser, getUserInfo, getUserID, gdisconnect, and disconnect are used for logging in or out of the application using oauth function via facebook and google.
 
-#### restaurantMenuJSON(), menuItemJSON(), restaurantJSON(), and showRestaurantJSON() are used to create output to mobile devices.
+restaurantMenuJSON(), menuItemJSON(), restaurantJSON(), and showRestaurantJSON() are used to create output to mobile devices.
 
-#### showRestaurant() displays a list of the restaurants.
+showRestaurant() displays a list of the restaurants.
 
-#### newRestaurant() builds a new restaurant in the database using sqlachemy.
+newRestaurant() builds a new restaurant in the database using sqlachemy.
 
-#### editRestaurant allows the user to change aspects about the restaurant.
+editRestaurant allows the user to change aspects about the restaurant.
 
-#### deleteRestaurant allows the user to delete a restaurant from the database.
+deleteRestaurant allows the user to delete a restaurant from the database.
 
-#### showMenu will query and display the restaurant menu.
+showMenu will query and display the restaurant menu.
 
-#### showRestCuisine will query on a particular type of cuisine.
+showRestCuisine will query on a particular type of cuisine.
 
-#### newMenuItem will allow the user to build a new menu item that.
+newMenuItem will allow the user to build a new menu item that.
 
-#### editMenuItem will allow the user to edit a menuitem that belongs to them.
+editMenuItem will allow the user to edit a menuitem that belongs to them.
 
-#### deleteMenuItem allows the user to delete a menu item.
+deleteMenuItem allows the user to delete a menu item.
 
 
 
