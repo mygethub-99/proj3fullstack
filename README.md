@@ -28,7 +28,7 @@ templates folder: Contain all the .html templates used by the application. flask
  2. Clone this project from Github. [project] (https://github.com/mygethub-99/proj3fullstack) into the vagrant directory. 
  3. Open Git Bash and navigate to the vagrant folder with the proj3fullstack master.py file. The execute vagrant up.
     Once vagrant vm is loaded execute the vagrant ssh command. 
- 4. Type in "python dropallfeb32015.py" command in vagrant to drop the database tables.
+ 4. Once in vagrant shell (see step 1 for more details) Type in "python dropallfeb32015.py" this command will drop all tables in the      db. Very important step!
  5. Type in "python dbpopfeb3.py" to load the database with app data.
  6. Type in "python master.py" to launch the web server application.
  7. Now open a chrome web browser and type in http://localhost:5000/restaurant/ to display the restaurant application.
@@ -46,7 +46,7 @@ showRestaurant displays a list of the restaurants.
 
 newRestaurant builds a new restaurant in the database using sqlachemy.
 
-editRestaurant allows the user to change aspects about the restaurant.
+editRestaurant allows the user to values held in the restaurant db table.
 
 deleteRestaurant allows the user to delete a restaurant from the database.
 
@@ -56,7 +56,7 @@ showRestCuisine will query on a particular type of cuisine.
 
 newMenuItem will allow the user to build a new menu item that.
 
-editMenuItem will allow the user to edit a menuitem that belongs to them.
+editMenuItem will allow the user to edit a menuitem that they are a owner of.
 
 deleteMenuItem allows the user to delete a menu item.
 
