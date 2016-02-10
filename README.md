@@ -25,7 +25,7 @@ templates folder: Contain all the .html templates used by the application. flask
 ***
 ## Web Application Setup
  1. Install Vagrant. Follow these instructions. [vagrant] (https://www.udacity.com/wiki/ud197/install-vagrant)
- 2. Clone this project from Github. [project] (https://github.com/udacity/proj3fullstack) into the vagrant directory. 
+ 2. Clone this project from Github. [project] (https://github.com/mygethub-99/proj3fullstack) into the vagrant directory. 
  3. Open Git Bash and navigate to the vagrant folder with the proj3fullstack master.py file. The execute vagrant up.
     Once vagrant vm is loaded execute the vagrant ssh command. 
  4. Type in "python dropallfeb32015.py" command in vagrant to drop the database tables.
