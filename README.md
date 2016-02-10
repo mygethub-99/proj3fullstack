@@ -30,9 +30,19 @@
 
 #### restaurantMenuJSON(), menuItemJSON(), restaurantJSON(), and showRestaurantJSON() are used to create output to mobile devices.
 
-#### showRestaurant() displays a list of the restaurants
+#### showRestaurant() displays a list of the restaurants.
 
-#### newRestaurant()
-#### createUser, getUserInfo, getUserID are used to register and login users.
+#### newRestaurant() builds a new restaurant in the database using sqlachemy.
+
+#### editRestaurant allows the user to change aspects about the restaurant.
+
+#### deleteRestaurant allows the user to delete a restaurant from the database.
+
+#### showMenu will query and display the restaurant menu.
+
+#### showRestCuisine will query on a particular type of cuisine.
+
+#### newMenuItem will allow the user to build a new menu item that.
+
 
 
